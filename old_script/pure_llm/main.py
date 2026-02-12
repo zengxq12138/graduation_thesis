@@ -2,15 +2,15 @@
 import json
 import os
 import traceback
-from typing import List, Dict
+
 from openai import OpenAI
 
 
 def build_prompt(question: str, max_chars: int) -> str:
     # 控制回答长度并只输出答案
     return (
-        f"你是一个简洁的助手。请用中文回答以下问题，要求：回答不超过 {max_chars} 字（字数以中文字符计），"
-        "不要超过限制；只返回答案内容，也不要包含标点前后的空行。\n\n"
+        f"你是一个简洁的助手。请用中文回答以下问题,"
+        "只返回答案内容，也不要包含标点前后的空行。\n\n"
         f"问题：{question}\n\n只返回答案："
     )
 
@@ -48,29 +48,26 @@ if __name__ == "__main__":
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
     )
 
+    # 数据集 A 测试
+    with open("testset/A.json", "r", encoding="utf-8") as f:
+        test_data = json.load(f)
 
-
-
-    # # 数据集 A 测试
-    # with open("testset/A.json", "r", encoding="utf-8") as f:
-    #     test_data = json.load(f)
-    
-    #     results = records()
-    #     for item in test_data:
-    #         question = item.get("问题", "")
-    #         standard_answer = item.get("标准答案", "")
-    #         try:
-    #             prompt= build_prompt(question, max_chars=100)
-    #             answer = get_response(client, prompt)
-    #             print(f"Q: {question}\nA: {answer}\n")
-    #         except Exception as e:
-    #             print(f"Error processing question: {question}\n{e}")
-    #             traceback.print_exc()
-    #             answer = "Error occurred during processing."
-    #         results.add_record(question, answer, standard_answer)
-    #     # 将结果写入到 testset/output_A.json
-    #     with open("testset/output_A.json", "w", encoding="utf-8") as f:
-    #         json.dump(results.data, f, ensure_ascii=False, indent=2)
+        results = records()
+        for item in test_data:
+            question = item.get("问题", "")
+            standard_answer = item.get("标准答案", "")
+            try:
+                prompt = build_prompt(question, max_chars=100)
+                answer = get_response(client, prompt)
+                print(f"Q: {question}\nA: {answer}\n")
+            except Exception as e:
+                print(f"Error processing question: {question}\n{e}")
+                traceback.print_exc()
+                answer = "Error occurred during processing."
+            results.add_record(question, answer, standard_answer)
+        # 将结果写入到 testset/output_A.json
+        with open("testset/output_A.json", "w", encoding="utf-8") as f:
+            json.dump(results.data, f, ensure_ascii=False, indent=2)
 
 
     # 数据集 B 测试

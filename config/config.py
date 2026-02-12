@@ -18,9 +18,13 @@ class APIConfig:
     openai_base_url: str = "https://dashscope.aliyuncs.com/compatible-mode/v1"
     model_name: str = "qwen3-max"
 
-    # 评分模型配置（使用 GLM-4）
-    judge_api_key: str = field(default_factory=lambda: os.getenv("ZAI_API_KEY") or os.getenv("OPENAI_API_KEY", ""))
-    judge_base_url: str = "https://open.bigmodel.cn/api/paas/v4/"
+    # 评分模型配置（使用 GLM-4.7）
+    # judge_api_key: str = field(default_factory=lambda: os.getenv("ZAI_API_KEY") or os.getenv("OPENAI_API_KEY", ""))
+    # judge_base_url: str = "https://open.bigmodel.cn/api/paas/v4/"
+    # judge_model_name: str = "glm-4.7"
+
+    judge_api_key: str = field(default_factory=lambda: os.getenv("DMX"))
+    judge_base_url: str = "https://www.dmxapi.com/v1"
     judge_model_name: str = "glm-4.7"
 
     # LightRAG 服务配置

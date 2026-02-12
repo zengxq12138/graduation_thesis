@@ -97,6 +97,7 @@ class Evaluator:
                     content = content.replace("```json", "").replace("```", "").strip()
 
                 result = json.loads(content)
+                print(result)
 
                 # 验证必要字段
                 required_fields = ["faithfulness_score", "comprehensiveness_score", "relevance_score"]
