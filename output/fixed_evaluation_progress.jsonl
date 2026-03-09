@@ -1,0 +1,1500 @@
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "柑橘疮痂病的病原菌是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 5,
+  "Score_Comprehensiveness": 3,
+  "Score_Relevance": 8,
+  "Reason": "AI回答提到了病原菌名称，但只提到了无性阶段名称，未提及有性阶段名称，且使用了旧分类名称。回答基本相关但不够全面。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "柑橘树脂病发生在果实储藏期时被称为什么病？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 10,
+  "Reason": "AI回答准确指出了柑橘树脂病在储藏期的名称，与标准答案一致。虽然没有参考资料，但回答正确且简洁，没有添加无关信息。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "柑橘红蜘蛛（柑橘全爪螨）生长的最适温度范围是多少？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 5,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 9,
+  "Reason": "AI回答给出了温度范围，但与标准答案的24~28℃有差异，存在轻微不准确。回答直接解决了问题，没有废话，但未提供更多细节。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "黑刺粉虱主要以什么虫态在何处越冬？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 10,
+  "Reason": "AI回答准确，虽然使用了'老熟幼虫'而非'四龄若虫'的术语，但实质内容一致。回答完整覆盖了越冬虫态和位置，直接解决了问题。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "防治矢尖蚧时，若虫孵化盛期推荐使用什么浓度的矿物油乳油？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 5,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本正确但缺少标准答案中的完整浓度范围(100-200倍液)，只提供了部分范围(100-150倍液)。由于没有参考资料，无法判断是否基于常识或存在幻觉。回答直接解决了问题，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "桃褐腐病主要危害桃树的哪些部位？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全符合标准答案，涵盖了所有关键要点，且直接回答了问题。虽然没有参考资料，但回答准确且没有幻觉。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "桃树流胶病的主要发病部位在哪里？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 10,
+  "Reason": "AI回答准确指出了桃树流胶病的主要发病部位，与标准答案高度一致。虽然没有参考资料，但回答基于植物病理学常识，没有明显幻觉。回答简洁明了，直接解决了问题。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "引起桃树细菌性穿孔病的病原菌属于哪一类？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 5,
+  "Score_Relevance": 9,
+  "Reason": "AI回答正确指出了病原菌属于黄单胞菌属，但没有提供标准答案中的完整分类信息（油菜黄单孢菌桃李致病变种）。由于没有参考资料，基于常识回答有一定忠实度，但不够全面。回答直接解决了问题，没有废话，相关性高。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "梨锈病的病原菌需要在哪些转主寄主上越冬？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 5,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 9,
+  "Reason": "AI回答提到了桧柏作为转主寄主，但未完整列出所有标准答案中提到的龙柏、桧柏、塔柏等植物，存在一定的不完整性。回答没有添加参考资料以外的信息，忠实度中等。回答直接解决了问题，没有废话，相关性高。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "梨小食心虫在上海地区一年发生几代？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 5,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答与标准答案完全一致，覆盖了所有关键要点，直接解决了问题。但由于没有参考资料，无法验证其忠实度，故给予中等评分。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "梨网蝽（梨冠网蝽）主要以什么虫态越冬？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本正确，提到了成虫越冬和树皮裂缝、枯枝落叶，但缺少了杂草和根际土块这两个越冬场所，且没有明确说明是'以成虫'越冬。回答简洁直接，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "葡萄黑痘病主要侵染葡萄的哪些组织？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 5,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本准确，提到了幼嫩组织，但缺少'幼叶'这一关键术语。由于没有参考资料，无法判断是否存在幻觉。回答涵盖了大部分关键点，但与标准答案相比略有差异。回答直接解决了问题，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "葡萄白粉病的病原菌是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答正确识别了葡萄白粉病的病原菌，虽然学名中属名与标准答案略有不同（Uncinula vs Erysiphe），但种名一致，且这两个名称实际上是同一病原菌的不同命名方式。回答完全覆盖了标准答案的关键点，且直接回答了问题，没有无关内容。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "葡萄霜霉病发病的最适宜温度是多少？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 3,
+  "Score_Comprehensiveness": 2,
+  "Score_Relevance": 5,
+  "Reason": "AI回答与标准答案存在明显差异，将最适宜温度错误地表述为15~20℃，而正确答案应为10~15℃。由于没有参考资料，AI的回答可能基于错误的知识或幻觉。回答直接针对问题，但内容不准确，因此相关性中等。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "杨梅癌肿病（杨梅疮）的病原菌属于哪类细菌？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 2,
+  "Score_Comprehensiveness": 1,
+  "Score_Relevance": 3,
+  "Reason": "AI回答存在严重幻觉，将病原菌错误地识别为根癌土壤杆菌，而非正确的丁香假单胞萨氏亚种杨梅致病变种。回答完全不忠实于标准答案，且缺乏关键信息。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "杨梅卷叶蛾（小黄卷叶蛾）的越冬虫态及场所是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本正确，但未提及'老熟幼虫'和'枯枝落叶'这两个关键细节。回答直接解决了问题，没有废话，但与标准答案相比缺少部分关键信息。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "星天牛的产卵刻槽呈什么形状？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 5,
+  "Score_Comprehensiveness": 5,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本解决了问题，但存在部分不准确。在忠实度方面，由于没有参考资料，AI基于常识回答，但将'人'形误答为'U'形，降低了忠实度。在完整性方面，AI回答缺少了'人'形这一关键信息。在有用性方面，回答直接针对问题，没有废话，但准确性有缺陷。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "苹果腐烂病主要有哪两种症状类型？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答准确且简洁，完全符合标准答案，没有添加无关信息。虽然缺乏参考资料，但回答内容正确，没有幻觉。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "45%石硫合剂晶体在梨树萌芽期防治梨锈病时的推荐倍数是多少？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 3,
+  "Score_Comprehensiveness": 2,
+  "Score_Relevance": 4,
+  "Reason": "AI回答与标准答案差异较大，推荐倍数(200-300倍)远高于标准答案(50-80倍)，存在明显错误。由于没有参考资料，AI的回答可能基于不完整或错误的知识。回答直接针对问题，但内容不准确。"
+}
+{
+  "System": "pure_llm",
+  "Type": "A",
+  "Question": "蓑蛾类害虫具有什么样的趋性，可用于物理防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答准确反映了蓑蛾类害虫的趋光性及对应的物理防治方法，与标准答案一致，且提供了实用的防治建议。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "总结柑橘疮痂病的症状特点及易感时期。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本准确，但添加了参考资料中未提及的'温暖多湿条件'和'4-6月高发期'等细节，存在轻微幻觉。回答涵盖了症状特点和易感时期的主要要点，但缺少'花瓣受害易凋落'这一细节。回答直接解决了问题，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "简述柑橘树脂病（砂皮病）的发病规律及诱发因素。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 2,
+  "Score_Comprehensiveness": 4,
+  "Score_Relevance": 6,
+  "Reason": "AI回答包含了一些参考资料中没有的信息（如具体病原菌名称、病斑描述等），存在幻觉。虽然涵盖了部分关键要点（如伤口、气候因素），但缺少了标准答案中的'寄主生长衰弱时侵入'、'温度20℃左右'和'梅雨期和秋季受冻后易发病'等关键信息。回答直接解决了问题，但包含了一些不必要的细节。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "总结防治柑橘潜叶蛾的综合措施。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本涵盖了标准答案中的农业防治和化学防治要点，但添加了物理防治和生物防治内容，这些在参考资料中未提及，存在一定程度的扩展。回答完整且直接解决了问题，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "导致柑橘煤污病发生的主要原因及防治策略是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本准确，提到了主要害虫和防治措施，但药剂选择与标准答案有差异。回答完整且直接解决问题。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "总结桃褐腐病的发病规律。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于植物病理学常识，没有明显幻觉；涵盖了标准答案中的所有关键要点（越冬、传播、侵染期、环境因素），并补充了病原菌名称和症状描述；直接回答了问题，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "桃树流胶病分为哪两类？请简述其防治原则。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本准确，虽然没有参考资料但内容符合植物病理学常识。回答涵盖了标准答案中的所有关键要点，包括两类流胶病的区分和四项防治原则，表述清晰直接。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "简述桃红颈天牛的生活习性及主要防治手段。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 5,
+  "Score_Relevance": 7,
+  "Reason": "AI回答基本准确，但与标准答案相比，在生活习性方面缺少越冬方式和世代周期信息；防治手段中缺少树干涂白和生物防治方法，增加了未在标准答案中的化学防治方法。回答直接解决了问题，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "梨锈病为什么需要切断与桧柏的联系？其防治关键是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本准确，没有明显幻觉。在完整性上，AI涵盖了切断与桧柏联系的原因和防治关键，但标准答案中提到的具体药剂苯醚甲环唑被替换为三唑酮，且未明确提到梨树萌芽展叶期和落花后这两个关键喷药时间点。回答直接解决了问题，没有废话，非常相关。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "总结梨木虱的危害特点及“三代”防治关键期。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 5,
+  "Score_Relevance": 7,
+  "Reason": "AI回答基本涵盖了梨木虱的危害特点和防治关键期，但在防治关键期的表述与标准答案存在差异，标准答案明确提到'越冬代成虫'、'第一代若虫'和'第二代若虫'，而AI回答中使用了'第一代'、'第二代'和'第三代'的表述，且增加了药剂使用和农业防治措施，这些在标准答案中未提及。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "梨小食心虫主要危害哪些果树？如何进行物理和生物防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本准确，但添加了参考资料中未提及的杏树和性信息素诱捕器，存在轻微幻觉。物理防治方面涵盖了诱虫灯、果实套袋，但遗漏了刮除老翘皮和糖醋液诱杀。生物防治提到了赤眼蜂、Bt和白僵菌，但未提及迷向素和保护天敌。回答直接解决问题，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "葡萄霜霉病和白粉病在发病环境条件上有何显著区别？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本准确，霜霉病和白粉病的温湿度条件与标准答案一致。虽然AI没有明确提到'秋季多雨'和'排水不良'对霜霉病的影响，以及'多云天气'对白粉病的影响，但核心温湿度条件描述准确且完整。回答直接针对问题，没有废话，非常相关。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "总结葡萄炭疽病的症状表现及防治时机。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本准确，但添加了参考资料中未提及的穗轴和新梢侵染信息，存在轻微幻觉。在症状描述上接近标准答案，但缺少'轮纹状小黑点'和'绯红色黏液'的精确描述。防治时机涵盖了花前、花后和近成熟期，但未明确提到'冬季清园'这一重要措施。回答直接解决问题，没有废话，实用性高。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "杨梅癌肿病（溃疡病）的传播途径及防治中的保护措施有哪些？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 4,
+  "Score_Comprehensiveness": 6,
+  "Score_Relevance": 7,
+  "Reason": "AI回答在传播途径上提到了风雨、昆虫、修剪工具和苗木调运，但未提及叶痕和嫁接传播；保护措施中包含了部分正确内容，但增加了未在标准答案中的药剂使用和排水措施，存在一定程度的幻觉。回答基本覆盖了关键点，但添加了额外信息。回答直接解决了问题，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "简述杨梅枝腐病的发病规律及与环境的关系。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本符合杨梅枝腐病的发病规律，提到了病菌通过伤口侵入、高湿多雨环境发病等要点，与标准答案一致。虽然添加了一些额外信息如症状描述和防控措施，但核心内容与标准答案相符。回答直接解决了问题，没有废话，但缺少了'病菌在病残体越冬'和'分生孢子传播'的具体细节。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "杨梅枯萎病（赤衣病）的典型症状是什么？如何防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 2,
+  "Score_Comprehensiveness": 1,
+  "Score_Relevance": 4,
+  "Reason": "AI回答存在明显幻觉，症状描述与标准答案差异大，防治方法完全不同且未提及标准答案中的关键措施。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "苹果腐烂病的防治策略中，刮治病斑的操作要点是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本准确，但添加了参考资料中没有的季节选择、工具消毒等内容，存在一定幻觉。回答涵盖了标准答案中的刮除范围、深度、杀菌剂使用和病残体处理等关键要点，但缺少'收集销毁刮下的病残体'这一重要步骤。回答直接针对问题，没有废话，实用性较强。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "针对果园冬季清园，通常包含哪些具体的农业和化学措施？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本忠实于常识，没有明显幻觉；涵盖了标准答案中的所有关键要点，包括剪除病虫枝、清扫落叶、刮除树干粗老翘皮、喷洒石硫合剂和矿物油、树干涂白等；回答直接解决了问题，没有废话，但提到了一些标准答案中没有的细节如杀虫剂使用。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "经济果林中常见的刺吸式口器害虫有哪些？它们容易诱发什么病害？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本准确，提到了刺吸式口器害虫及其诱发的煤污病，与标准答案一致。虽然提到了红蜘蛛和木虱，但标准答案中没有，属于轻微扩展。回答完整涵盖了关键要点，直接解决了问题。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "梨果实套袋技术能有效防治哪些主要的食叶或蛀果害虫？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 5,
+  "Score_Relevance": 7,
+  "Reason": "AI回答基本准确，但存在一些偏差。在忠实度方面，由于没有参考资料，AI基于常识回答，但提到了梨木虱和梨黄粉蚜，这些在标准答案中未提及，可能存在轻微幻觉。在完整性方面，AI涵盖了大部分关键害虫，但错误添加了梨木虱和梨黄粉蚜，且未提及桃蛀螟和椿象类。在有用性方面，回答直接解决了问题，并提供了额外有用信息，如对食叶害虫的影响。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "简述“以虫治虫”等生物防治在果林病虫害防治中的应用实例。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 4,
+  "Score_Relevance": 7,
+  "Reason": "AI回答提到了'以虫治虫'的概念和一般应用，但与标准答案相比，只覆盖了部分实例（赤眼蜂防治梨小食心虫，而标准答案中是杨梅卷叶蛾）。没有提到标准答案中的食螨瓢虫/捕食螨防治柑橘红蜘蛛锈壁虱、管氏肿腿蜂防治天牛、小茧蜂防治葡萄天蛾等关键实例。回答没有明显幻觉，与常识相符，但不够全面。回答直接解决了问题，没有废话，实用性较高。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "比较柑橘红蜘蛛和柑橘锈壁虱在危害症状上的区别。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本准确，没有明显幻觉；涵盖了标准答案中的所有关键症状描述；直接回答了问题，没有无关内容。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "葡萄白腐病和炭疽病在果实上的症状有何不同？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于植物病理学常识，没有明显幻觉；涵盖了标准答案中的所有关键症状差异点；直接对比了两种病害的症状，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "总结星天牛和褐天牛在生活史和危害部位上的主要区别（以杨梅 桃树为例）。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 4,
+  "Score_Comprehensiveness": 5,
+  "Score_Relevance": 6,
+  "Reason": "AI回答包含了一些正确信息，但存在与标准答案不符的内容，如褐天牛的危害部位描述错误。回答基本解决了问题，但部分细节不准确。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "梨树上的梨二叉蚜主要危害特点是什么？如何进行药剂防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 2,
+  "Score_Comprehensiveness": 4,
+  "Score_Relevance": 6,
+  "Reason": "AI回答存在明显幻觉，添加了参考资料中未提及的药剂种类和具体浓度，且未提及关键防治时期（花序分离期和落花后）。虽然回答涵盖了危害特点的基本描述，但缺少了叶片向上纵卷成筒状这一关键特征。回答结构清晰，但部分内容与标准答案不符。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "杨梅白腐病主要发生在什么时期？其发生与环境有何关系？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 4,
+  "Score_Comprehensiveness": 6,
+  "Score_Relevance": 7,
+  "Reason": "AI回答在忠实度方面表现一般，因为没有参考资料却提供了具体温度和时间数据，可能存在幻觉。在完整性方面，涵盖了发生时期和环境关系的主要要点，但缺少了'暴雨飞溅泥土中的病菌传播'这一关键信息。在有用性方面，回答直接解决了问题，提供了实用的环境因素分析。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "葡萄避雨栽培主要针对哪些病害？为什么有效？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本准确，提到了主要病害和避雨原理，但添加了'黑痘病'这一标准答案中未提及的病害，且增加了关于减少裂果的额外信息。回答完整且直接解决了问题。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "总结梨黑斑病的发病规律及防治重点。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 4,
+  "Score_Comprehensiveness": 6,
+  "Score_Relevance": 7,
+  "Reason": "AI回答包含了梨黑斑病的基本信息和防治措施，但存在一些与标准答案不符的细节（如病原菌名称、具体药剂等），且没有明确提到'梅雨季'这一关键流行时期。防治措施较为全面，但药剂选择与标准答案不同。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "柑橘花蕾蛆的危害特征及防治适期是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本准确，但添加了参考资料中没有的药剂信息，存在轻微幻觉。回答涵盖了危害特征和防治适期的关键点，但防治适期描述比标准答案稍显冗长。回答直接解决了问题，没有废话。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "苹果轮纹病（粗皮病）主要危害哪些部位？其症状有何特点？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于植物病理学常识，没有明显幻觉。在回答完整性上，AI涵盖了标准答案中的所有关键要点，并添加了一些额外有用信息。回答直接针对问题，没有废话，非常相关。"
+}
+{
+  "System": "pure_llm",
+  "Type": "B",
+  "Question": "综合果林病虫害防治手册，减少化学农药使用的主要途径有哪些？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于常识，没有明显幻觉；涵盖了标准答案中的所有要点，并增加了生态调控和科学用药的细节；直接回答问题，内容高度相关且实用。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "柑橘疮痂病的病原菌是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确提供了柑橘疮痂病的病原菌名称及其分类信息，与标准答案一致，没有添加任何无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "柑橘树脂病发生在果实储藏期时被称为什么病？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出柑橘树脂病在果实储藏期称为蒂腐病，与标准答案一致，没有添加任何无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "柑橘红蜘蛛（柑橘全爪螨）生长的最适温度范围是多少？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全基于参考资料，准确提供了柑橘红蜘蛛的最适温度范围24~28℃，与标准答案一致，且回答简洁明了，直接解决了问题。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "黑刺粉虱主要以什么虫态在何处越冬？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了黑刺粉虱主要以四龄若虫在叶片背面越冬，与标准答案完全一致，没有添加任何无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "防治矢尖蚧时，若虫孵化盛期推荐使用什么浓度的矿物油乳油？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全基于参考资料，准确提供了防治矢尖蚧时在若虫孵化盛期使用99%矿物油乳油100~200倍液的信息，与标准答案一致，且没有添加无关内容。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "桃褐腐病主要危害桃树的哪些部位？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全基于参考资料，准确涵盖了桃褐腐病危害的所有主要部位（果实、花、叶片和新梢），与标准答案一致，且回答简洁明了，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "桃树流胶病的主要发病部位在哪里？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了桃树流胶病的主要发病部位是枝干，特别是主干和主枝杈桠部，并补充了果实也可能发生流胶的信息，与标准答案一致且回答完整直接。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "引起桃树细菌性穿孔病的病原菌属于哪一类？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全基于参考资料，准确指出了病原菌的分类和具体种类，与标准答案一致，没有添加任何无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "梨锈病的病原菌需要在哪些转主寄主上越冬？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了梨锈病病原菌在龙柏、桧柏、塔柏等植物上越冬，与标准答案完全一致，没有添加任何无关信息，也没有遗漏任何关键点。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "梨小食心虫在上海地区一年发生几代？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 2,
+  "Score_Comprehensiveness": 1,
+  "Score_Relevance": 1,
+  "Reason": "AI回答与参考资料严重不符，参考资料明确指出梨小食心虫在上海地区一年发生4-5代，而AI回答为2分，存在明显错误。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "梨网蝽（梨冠网蝽）主要以什么虫态越冬？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 10,
+  "Reason": "AI回答严格基于参考资料，准确指出梨冠网蝽以成虫越冬。虽然参考资料中提到了越冬的具体场所（枯枝落叶、树皮缝、杂草及根际土块），但AI回答的核心信息（以成虫越冬）完全正确且忠实于参考资料。回答简洁明了，直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "葡萄黑痘病主要侵染葡萄的哪些组织？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，提到了叶片、枝梢和果实，但未明确指出是'幼嫩绿色部分'这一关键信息。回答完整性稍欠，未提及'幼叶、嫩梢、幼果'等具体幼嫩组织。回答直接解决了问题，没有废话，相关性高。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "葡萄白粉病的病原菌是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了葡萄白粉病的病原菌是葡萄钩丝壳菌（Uncinula necator），与标准答案一致。回答简洁明了，直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "葡萄霜霉病发病的最适宜温度是多少？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确提供了葡萄霜霉病发病的最适宜温度为10~15℃，与标准答案一致，没有添加任何无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "杨梅癌肿病（杨梅疮）的病原菌属于哪类细菌？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 1,
+  "Score_Comprehensiveness": 1,
+  "Score_Relevance": 1,
+  "Reason": "AI回答完全错误，将细菌性病害误认为是放线菌引起的，且与参考资料中的病原菌信息完全不符。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "杨梅卷叶蛾（小黄卷叶蛾）的越冬虫态及场所是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确提供了杨梅小黄卷叶蛾的越冬虫态及场所，与标准答案完全一致，没有添加任何无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "星天牛的产卵刻槽呈什么形状？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 2,
+  "Score_Comprehensiveness": 1,
+  "Score_Relevance": 1,
+  "Reason": "AI回答与参考资料和标准答案严重不符。参考资料明确指出星天牛的产卵刻槽为'T'形或'人'形，而AI回答为'U'形或马蹄形，属于完全错误的描述。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "苹果腐烂病主要有哪两种症状类型？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全基于参考资料，准确描述了苹果腐烂病的两种症状类型（溃疡型和枝枯型），并提供了详细的症状描述，与标准答案一致且回答完整直接。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "45%石硫合剂晶体在梨树萌芽期防治梨锈病时的推荐倍数是多少？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答严格基于参考资料，明确指出参考资料中未包含45%石硫合剂晶体在梨树萌芽期防治梨锈病的具体使用浓度或稀释倍数，没有添加任何未在参考资料中的信息。同时，AI回答直接解决了问题，没有废话，并提供了合理的建议。"
+}
+{
+  "System": "naive_rag",
+  "Type": "A",
+  "Question": "蓑蛾类害虫具有什么样的趋性，可用于物理防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全基于参考资料，准确指出蓑蛾类害虫具有强烈的趋光性，并提供了具体的物理防治方法，与标准答案一致且完整。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "总结柑橘疮痂病的症状特点及易感时期。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确描述了柑橘疮痂病的症状特点和易感时期，涵盖了所有关键要点，包括症状表现、易感组织和发病条件，没有添加无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "简述柑橘树脂病（砂皮病）的发病规律及诱发因素。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了柑橘树脂病的发病规律和诱发因素。回答涵盖了病菌寄生性弱、需要寄主衰弱或受伤才能侵入、多雨潮湿和20℃左右温度下传播快、梅雨期和秋季受冻后易发病等关键点。与标准答案相比，AI回答增加了'树势不良、管理粗放、通风透光差等因素也会显著增加发病风险'这一补充信息，但整体上回答完整且直接解决了问题。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "总结防治柑橘潜叶蛾的综合措施。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，涵盖了农业防治、化学防治和用药时机三个关键方面，与标准答案完全一致，没有添加任何无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "导致柑橘煤污病发生的主要原因及防治策略是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确描述了柑橘煤污病的发生原因（蚧、蚜、粉虱等害虫的'蜜露'是诱发煤污病的先决条件）和防治策略（包括改善果园环境、清除病源与媒介、防控媒介害虫和化学防治），涵盖了标准答案中的所有关键要点，且直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "总结桃褐腐病的发病规律。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，涵盖了越冬方式、传播途径、侵染期和环境因素等所有关键要点，与标准答案完全一致，且表述清晰简洁，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "桃树流胶病分为哪两类？请简述其防治原则。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答忠实于参考资料，准确区分了侵染性和非侵染性流胶病，并提供了相应的防治措施。回答基本涵盖了标准答案中的所有关键要点，包括病因分类、增强树势、减少伤口、清园消毒和药剂保护等方面。回答直接解决了问题，没有废话，结构清晰。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "简述桃红颈天牛的生活习性及主要防治手段。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本忠实于参考资料，涵盖了桃红颈天牛的生活习性和防治方法的主要要点。在生活习性方面，详细描述了发生周期、越冬方式、成虫活动规律和产卵特点；在防治方法方面，提到了人工捕杀、诱杀和生物防治。但标准答案中提到的'树干涂白'防治手段在AI回答中未提及，因此完整性评分为8分。回答直接针对问题，没有废话，相关性高。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "梨锈病为什么需要切断与桧柏的联系？其防治关键是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确解释了梨锈病与桧柏的关系及防治措施，涵盖了标准答案中的所有关键要点，包括切断与桧柏联系的原理和防治关键措施，回答直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "总结梨木虱的危害特点及“三代”防治关键期。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确描述了梨木虱的危害特点和三个关键防治期，与标准答案完全一致，没有添加任何无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "梨小食心虫主要危害哪些果树？如何进行物理和生物防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本忠实于参考资料，涵盖了梨小食心虫的主要危害对象和防治方法。物理防治方面提到了刮除老翘皮、剪除虫梢、摘除虫果、果实套袋、糖醋液诱杀和杀虫灯诱杀，与参考资料一致。生物防治提到了迷向素和生物源药剂，也符合参考资料内容。但标准答案中提到的'保护天敌'在AI回答中没有体现，且危害对象中缺少'李、苹果'等果树，因此完整性评分为8分。回答直接解决了问题，没有废话，相关性评分为9分。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "葡萄霜霉病和白粉病在发病环境条件上有何显著区别？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确指出了两种病害的温湿度偏好差异，涵盖了所有关键要点，且直接回答了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "总结葡萄炭疽病的症状表现及防治时机。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了葡萄炭疽病的症状和防治时机。回答涵盖了主要症状表现和关键防治时期，但缺少对发病规律的详细描述。回答直接解决了问题，没有废话，结构清晰。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "杨梅癌肿病（溃疡病）的传播途径及防治中的保护措施有哪些？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 7,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了杨梅癌肿病的传播途径和保护措施。回答涵盖了主要传播方式（雨水、空气、昆虫、工具、嫁接）和保护措施（避免损伤树体、防风设施、伤口处理）。但标准答案中提到的'剪除病枝并烧毁'在AI回答中未明确提及，因此完整性略有不足。回答直接针对问题，没有废话，相关性高。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "简述杨梅枝腐病的发病规律及与环境的关系。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答完全基于参考资料，没有添加任何幻觉内容。回答涵盖了发病规律的所有关键点：病菌越冬方式、侵入途径、传播方式以及与环境因素的关系。回答直接解决了问题，没有废话，与标准答案完全一致。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "杨梅枯萎病（赤衣病）的典型症状是什么？如何防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确描述了杨梅枯萎病（赤衣病）的症状和防治方法，涵盖了所有关键要点，包括病原特征、症状表现、发病规律和具体的防治措施，且回答直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "苹果腐烂病的防治策略中，刮治病斑的操作要点是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答完全基于参考资料，准确描述了刮治病斑的操作要点，包括刮除范围、时机和后续处理，与标准答案完全一致，没有添加任何无关信息。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "针对果园冬季清园，通常包含哪些具体的农业和化学措施？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答忠实于参考资料，涵盖了冬季清园的主要农业和化学措施，包括修剪清理、刮除病组织、树干涂白、药剂清园等关键点。回答完整，直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "经济果林中常见的刺吸式口器害虫有哪些？它们容易诱发什么病害？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 5,
+  "Score_Comprehensiveness": 4,
+  "Score_Relevance": 6,
+  "Reason": "AI回答提到了苹果绵蚜和山楂叶螨，但参考资料中苹果绵蚜和山楂叶螨并非典型的刺吸式口器害虫，而是属于不同类别。AI回答遗漏了标准答案中提到的蚜虫、介壳虫、粉虱等典型刺吸式口器害虫，也没有完整说明它们诱发的煤污病。回答部分相关但不够全面。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "梨果实套袋技术能有效防治哪些主要的食叶或蛀果害虫？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 5,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本忠实于参考资料，提到了梨小食心虫和桃蛀螟这两种主要蛀果害虫，但未提及标准答案中的康氏粉蚧和椿象类害虫。回答完整性不足，遗漏了部分关键害虫。回答直接解决了问题，没有废话，相关性较高。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "简述“以虫治虫”等生物防治在果林病虫害防治中的应用实例。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 4,
+  "Score_Comprehensiveness": 2,
+  "Score_Relevance": 5,
+  "Reason": "AI回答提到了一些生物防治方法，但与标准答案中的具体实例不完全匹配。标准答案明确提到了利用食螨瓢虫、捕食螨防治柑橘红蜘蛛；释放赤眼蜂防治杨梅卷叶蛾；保护利用管氏肿腿蜂防治天牛；利用小茧蜂防治葡萄天蛾。而AI回答中提到的赤眼蜂防治桃小食心虫、瓢虫控制蚜虫等在参考资料中未明确提及，存在一定程度的幻觉。回答完整性较低，未涵盖标准答案中的所有关键实例。回答有用性中等，直接回答了问题，但缺乏具体实例的支持。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "比较柑橘红蜘蛛和柑橘锈壁虱在危害症状上的区别。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确描述了柑橘红蜘蛛和柑橘锈壁虱的危害症状区别，涵盖了所有关键要点，且直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "葡萄白腐病和炭疽病在果实上的症状有何不同？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确描述了葡萄白腐病和炭疽病在果实上的症状差异，涵盖了所有关键要点，且直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "总结星天牛和褐天牛在生活史和危害部位上的主要区别（以杨梅 桃树为例）。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 8,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了两种天牛的生活史和危害部位差异。在生活史方面，正确指出星天牛1年1代，褐天牛2年1代及幼虫期长；在危害部位方面，正确区分星天牛危害主干基部和皮层，褐天牛危害枝干和木质部。回答完整涵盖了标准答案中的关键要点，且直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "梨树上的梨二叉蚜主要危害特点是什么？如何进行药剂防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答完全基于参考资料，没有添加任何幻觉内容。回答涵盖了危害特点和药剂防治的所有关键要点，包括危害症状、药剂防治的关键时期和具体药剂用量，与标准答案完全一致。回答直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "杨梅白腐病主要发生在什么时期？其发生与环境有何关系？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答完全基于参考资料，准确描述了杨梅白腐病主要发生在采摘中后期，并详细解释了与雨水的关系，包括暴雨传播病菌、果实成熟度与发病的关系等关键点，与标准答案完全一致。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "葡萄避雨栽培主要针对哪些病害？为什么有效？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确识别了葡萄避雨栽培主要针对的病害类型及其原因，涵盖了标准答案中的所有关键要点，且回答直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "总结梨黑斑病的发病规律及防治重点。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，涵盖了发病规律和防治重点的所有关键信息，包括病原越冬方式、传播途径、发病条件、农业管理和药剂防治等方面，与标准答案完全一致且回答直接解决了问题。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "柑橘花蕾蛆的危害特征及防治适期是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确描述了柑橘花蕾蛆的危害特征和防治适期。回答涵盖了所有关键要点，包括危害特征（花蕾变形如灯笼状、花瓣带绿点）和防治适期（成虫羽化出土期和产卵前喷药）。回答直接解决了问题，没有废话，信息完整且准确。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "苹果轮纹病（粗皮病）主要危害哪些部位？其症状有何特点？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 9,
+  "Reason": "AI回答严格基于参考资料，准确描述了苹果轮纹病对枝干和果实的危害特点，涵盖了所有关键要点，包括病斑形成过程、形态特征和症状表现，直接解决了问题，没有废话。"
+}
+{
+  "System": "naive_rag",
+  "Type": "B",
+  "Question": "综合果林病虫害防治手册，减少化学农药使用的主要途径有哪些？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7,
+  "Score_Comprehensiveness": 6,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本忠实于参考资料，提到了生物防治、综合防治、科学用药、监测预警和生态优化等减少化学农药使用的途径，与标准答案的核心要点相符。但在'冬季清园'和'物理防治措施'方面没有明确提及，且部分内容如'设施栽培'在参考资料中未直接与减少化学农药使用关联。回答直接解决了问题，没有废话，结构清晰。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "柑橘疮痂病的病原菌是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了柑橘疮痂病的病原菌是柑橘痂囊腔菌（Elsinoe fawcettii）及其无性阶段柑橘痂圆孢菌（Sphaceloma fawcettii），并提供了完整的分类学信息。回答直接解决了问题，没有废话，与标准答案完全一致。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "柑橘树脂病发生在果实储藏期时被称为什么病？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出柑橘树脂病在储藏期被称为蒂腐病，与标准答案一致。回答简洁明了，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "柑橘红蜘蛛（柑橘全爪螨）生长的最适温度范围是多少？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 10,
+  "Reason": "AI回答基本忠实于参考资料，提供了柑橘红蜘蛛的最适温度范围(24-28℃)，与标准答案一致。回答涵盖了温度范围、抑制温度以及环境偏好等关键信息，直接解决了问题。虽然参考资料中没有明确提到相对湿度数据，但AI的回答仍然准确且全面。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "黑刺粉虱主要以什么虫态在何处越冬？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了黑刺粉虱以四龄若虫在叶片背面越冬的信息，与标准答案完全一致，没有添加任何无关内容。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "防治矢尖蚧时，若虫孵化盛期推荐使用什么浓度的矿物油乳油？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全基于参考资料，准确提供了99%矿物油乳油100~200倍液的推荐浓度，与标准答案一致。回答简洁明了，直接解决了问题，没有添加无关信息。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "桃褐腐病主要危害桃树的哪些部位？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 10,
+  "Reason": "AI回答忠实于参考资料，准确描述了桃褐腐病对果实、花、叶和枝梢的危害，与标准答案一致。回答全面涵盖了所有关键要点，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "桃树流胶病的主要发病部位在哪里？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了桃树流胶病的主要发病部位在枝干，特别是主干和主枝杈桠部。回答涵盖了标准答案中的所有关键要点，并且直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "引起桃树细菌性穿孔病的病原菌属于哪一类？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了桃树细菌性穿孔病的病原菌属于变形菌门黄单孢杆菌属，具体为油菜黄单孢菌桃李致病变种，与标准答案完全一致。回答简洁明了，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "梨锈病的病原菌需要在哪些转主寄主上越冬？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了梨锈病病原菌在龙柏、桧柏、塔柏等植物上越冬，与标准答案一致。回答简洁明了，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "梨小食心虫在上海地区一年发生几代？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确引用了文档中'梨小食心虫一年发生4~5代'的信息，没有添加任何幻觉内容。回答完整涵盖了标准答案中的关键信息，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "梨网蝽（梨冠网蝽）主要以什么虫态越冬？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出梨网蝽以成虫越冬，并详细说明了越冬场所。回答涵盖了标准答案中的所有关键要点，且直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "葡萄黑痘病主要侵染葡萄的哪些组织？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全基于参考资料，准确描述了葡萄黑痘病侵染的幼嫩绿色组织，包括叶片、幼果、嫩梢、卷须、叶柄、穗轴和果柄等部位，与标准答案一致。回答详细描述了各组织上的症状表现，全面且直接解决了问题。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "葡萄白粉病的病原菌是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了葡萄白粉病的病原菌是葡萄钩丝壳菌（Uncinula necator），并提供了其分类信息（子囊菌亚门钩丝壳属），与标准答案一致。回答简洁明了，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "葡萄霜霉病发病的最适宜温度是多少？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全基于参考资料，准确指出了葡萄霜霉病发病的最适宜温度为10-15℃，并补充了环境条件信息，与标准答案完全一致且回答简洁明了。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "杨梅癌肿病（杨梅疮）的病原菌属于哪类细菌？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出了杨梅癌肿病的病原菌是丁香假单胞萨氏亚种杨梅致病变种(Pseudomonas syringae pv. myricae)，并正确归类为变形细菌门(Proteobacteria)的假单胞菌属(Pseudomonas)。回答简洁明了，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "杨梅卷叶蛾（小黄卷叶蛾）的越冬虫态及场所是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出杨梅小黄卷叶蛾以老熟幼虫在卷叶苞内或枯枝落叶中越冬，与标准答案一致。回答简洁明了，没有添加任何无关信息，直接解决了问题。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "星天牛的产卵刻槽呈什么形状？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确引用了知识图谱和文档块中关于星天牛产卵刻槽形状的描述，与标准答案完全一致，且没有添加任何无关信息。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "苹果腐烂病主要有哪两种症状类型？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8,
+  "Score_Comprehensiveness": 9,
+  "Score_Relevance": 10,
+  "Reason": "AI回答准确识别了苹果腐烂病的两种主要症状类型（溃疡型和枝枯型），并提供了详细的症状描述，与参考资料中的内容基本一致。回答直接解决了问题，没有废话，且涵盖了标准答案中的所有关键要点。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "45%石硫合剂晶体在梨树萌芽期防治梨锈病时的推荐倍数是多少？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 3,
+  "Score_Comprehensiveness": 1,
+  "Score_Relevance": 2,
+  "Reason": "AI回答存在严重幻觉，参考资料中并未提及45%石硫合剂晶体在梨树萌芽期防治梨锈病的推荐倍数。AI错误地将桃白锈病的推荐倍数(150-200倍)应用到了梨锈病上，且标准答案明确指出推荐倍数为50-80倍。AI回答与参考资料和标准答案均不符。"
+}
+{
+  "System": "light_rag",
+  "Type": "A",
+  "Question": "蓑蛾类害虫具有什么样的趋性，可用于物理防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 10,
+  "Score_Comprehensiveness": 10,
+  "Score_Relevance": 10,
+  "Reason": "AI回答完全忠实于参考资料，准确指出蓑蛾类害虫具有强烈的趋光性，并提供了具体的物理防治方法（悬挂黑光灯、频振式杀虫灯等），与标准答案完全一致。回答简洁明了，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "总结柑橘疮痂病的症状特点及易感时期。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 8.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了柑橘疮痂病的症状特点和易感时期。回答涵盖了叶片、嫩梢和幼果的症状，以及春梢和幼果期作为易感时期。与标准答案相比，AI提供了更详细的症状描述，但基本要点一致。回答直接解决了问题，没有无关内容。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "简述柑橘树脂病（砂皮病）的发病规律及诱发因素。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 7.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了柑橘树脂病的病原、发病规律和诱发因素。回答涵盖了寄主生长状态、环境条件及病原物传播方式等关键点，与标准答案的主要要点一致。但标准答案中提到的'寄主生长不良或有伤口'和'气候条件：多雨潮湿、温度20℃左右传播快'等核心内容在AI回答中表述不够简洁直接。回答直接解决了问题，没有废话，结构清晰。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "总结防治柑橘潜叶蛾的综合措施。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 7.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，涵盖了农业防治和化学防治的主要措施，但添加了一些未在参考资料中明确提到的内容（如生物防治中的具体天敌名称、黄板诱捕等）。回答完整性较好，涵盖了农业防治、化学防治和用药时机等关键点，但部分细节与标准答案略有差异。回答直接解决了问题，没有废话，实用性高。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "导致柑橘煤污病发生的主要原因及防治策略是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 7.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，准确指出了煤污病与害虫分泌物(蜜露)的关系，并提到了多种害虫种类。在防治策略方面，涵盖了化学防治、物理与农业防治，但缺少标准答案中强调的'核心措施：重点防治蚧、蚜、粉虱等刺吸式害虫'这一关键点。回答结构清晰，内容详实，但与标准答案相比，在防治策略的优先级和核心措施上有所欠缺。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "总结桃褐腐病的发病规律。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 9.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答基本忠实于参考资料，涵盖了越冬方式、传播途径、侵染期和环境因素等关键点，与标准答案高度一致。回答完整且直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "桃树流胶病分为哪两类？请简述其防治原则。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 10.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答严格基于参考资料，准确区分了桃树流胶病的两类（侵染性和非侵染性），并详细列出了防治原则，与标准答案完全一致。回答全面涵盖了所有关键要点，包括病因、症状和防治措施，且直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "简述桃红颈天牛的生活习性及主要防治手段。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 8.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，涵盖了桃红颈天牛的主要生活习性和防治手段。回答中提到的2-3年发生一代、成虫羽化时间、产卵位置、幼虫危害方式等与参考资料一致。防治手段包括人工捕杀、化学防治、物理防治和生物防治，与参考资料中的内容相符。回答较为全面，但标准答案中提到的'钩杀幼虫'在AI回答中表述为'用细钢丝钩杀幼虫'，略有差异。整体回答直接解决了问题，没有废话，相关性高。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "梨锈病为什么需要切断与桧柏的联系？其防治关键是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 10.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答高度忠实于参考资料，准确描述了梨锈病的病原、发病规律和防治方法。回答完整涵盖了标准答案中的所有关键要点，包括切断与桧柏联系的原因和防治关键措施。回答直接解决了问题，没有废话，结构清晰，专业性强。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "总结梨木虱的危害特点及“三代”防治关键期。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 8.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了梨木虱的危害特点和三个防治关键期。回答涵盖了成虫若虫刺吸汁液、分泌黏液导致煤污病等关键危害特点，以及越冬代成虫、第一代若虫和第二代若虫的防治关键期。回答结构清晰，直接解决了问题，没有废话。但回答中提到的'花序分离期至铃铛球期'和'落花后10天内'两个关键期在参考资料中未明确提及，可能存在轻微偏差。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "梨小食心虫主要危害哪些果树？如何进行物理和生物防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 9.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答基本忠实于参考资料，准确列出了梨小食心虫危害的果树种类和防治方法。回答完整性高，涵盖了标准答案中的所有关键要点，包括危害对象和物理、生物防治方法。回答直接解决了问题，没有废话，信息有用且结构清晰。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "葡萄霜霉病和白粉病在发病环境条件上有何显著区别？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 10.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答严格基于参考资料，准确描述了葡萄霜霉病喜低温高湿(10~15℃)和白粉病喜高温干燥(25~28℃)的区别，与标准答案完全一致。回答全面涵盖了两种病害的环境条件需求，没有废话，直接解决了问题。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "总结葡萄炭疽病的症状表现及防治时机。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7.2,
+  "Score_Comprehensiveness": 8.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答在症状描述和防治时机方面基本准确，但存在一些与参考资料不符的内容。症状描述中关于叶片受害和枝梢受害的细节在参考资料中未明确提及，属于一定程度的幻觉。防治时机部分基本符合标准答案，但增加了额外的细节如具体药剂浓度和特殊天气处理，这些在参考资料中有支持。回答整体结构清晰，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "杨梅癌肿病（溃疡病）的传播途径及防治中的保护措施有哪些？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 10.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答严格基于参考资料，准确描述了杨梅癌肿病的传播途径（借雨水、空气、昆虫传播，通过伤口、叶痕侵入，嫁接也可传播）和保护措施（避免损伤树体、设立防风支架、伤口消毒、剪除病枝等），与标准答案完全一致，没有添加任何未提及的内容。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "简述杨梅枝腐病的发病规律及与环境的关系。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 10.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答严格基于参考资料，准确描述了杨梅枝腐病的发病规律（病菌在病残体越冬，经伤口或节间侵入，雨天分生孢子溢出传播）以及与环境的关系（与雨量成正比，雨水多、果园潮湿、管理粗放、树势弱则发病重）。回答涵盖了标准答案中的所有关键要点，且直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "杨梅枯萎病（赤衣病）的典型症状是什么？如何防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 10.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答严格基于参考资料，准确描述了杨梅枯萎病(赤衣病)的症状和防治方法，涵盖了标准答案中的所有关键要点，包括白色丝网、橘红色粉末、粉红色/橙黄色霉层等典型症状，以及清除杂木、喷石硫合剂或松脂碱合剂清园、生长季喷乙蒜素乳油等防治措施。回答直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "苹果腐烂病的防治策略中，刮治病斑的操作要点是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 8.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了刮治病斑的操作要点，包括刮除范围、伤口处理和时机选择。回答涵盖了标准答案中的关键要点，如刮除病部组织、涂抹杀菌剂和销毁病残体。回答直接针对问题，没有无关内容。但回答中提到的'入冬前'在参考资料中并未明确提及，而是提到'入冬前进行病斑治疗'，这一点略有差异。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "针对果园冬季清园，通常包含哪些具体的农业和化学措施？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 9.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答在忠实度方面表现良好，大部分内容基于参考资料，如提到石硫合剂、硫酸铜、树干涂白等清园措施。回答完整性很高，涵盖了标准答案中的所有关键要点，并提供了更详细的解释。回答直接解决了问题，没有废话，结构清晰，内容实用。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "经济果林中常见的刺吸式口器害虫有哪些？它们容易诱发什么病害？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 7.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，提到了蚜虫、粉虱、介壳虫等刺吸式口器害虫，并正确指出它们会诱发煤污病。回答中提到的麻皮蝽在参考资料中有提及，但其他如叶螨等在参考资料中未被明确归类为刺吸式口器害虫。回答涵盖了主要害虫及其诱发的病害，但标准答案中提到的网蝽、叶蝉等害虫在AI回答中未提及。回答直接解决了问题，没有废话，结构清晰。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "梨果实套袋技术能有效防治哪些主要的食叶或蛀果害虫？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 7.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，正确识别了桃蛀螟、梨小食心虫和麻皮蝽作为套袋技术能有效防治的主要害虫。回答结构清晰，解释了套袋的工作原理和实施时间。然而，标准答案中提到的'康氏粉蚧'在AI回答中未被提及，导致完整性评分略低。回答直接解决了问题，没有废话，相关性高。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "简述“以虫治虫”等生物防治在果林病虫害防治中的应用实例。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 6.2,
+  "Score_Comprehensiveness": 5.2,
+  "Score_Relevance": 7,
+  "Reason": "AI回答提到了赤眼蜂、瓢虫、捕食螨等生物防治方法，与参考资料中的部分内容相符，如赤眼蜂(Trichogramma Wasps)和捕食螨(Predatory Mite)在生物防治中的应用。然而，回答中提到的梨小食心虫、桃蛀螟等害虫在参考资料中未明确提及，存在一定程度的幻觉。回答完整性不足，未涵盖标准答案中的所有关键实例，如食螨瓢虫防治柑橘红蜘蛛锈壁虱、释放赤眼蜂防治杨梅卷叶蛾、保护利用管氏肿腿蜂防治天牛、利用小茧蜂防治葡萄天蛾等。回答有用性较好，直接解决了问题，但部分内容与参考资料不完全一致。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "比较柑橘红蜘蛛和柑橘锈壁虱在危害症状上的区别。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 9.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了柑橘红蜘蛛和柑橘锈壁虱的危害症状区别。回答涵盖了标准答案中的关键要点：红蜘蛛导致叶片灰白色、失光泽、脱落，果实出现淡绿色黄色斑点；锈壁虱导致叶背和果皮污黑色，果皮粗糙布满网状细纹或古铜色锈斑。回答直接解决了问题，没有废话，结构清晰，对比明确。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "葡萄白腐病和炭疽病在果实上的症状有何不同？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 10.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答严格基于参考资料，准确描述了葡萄白腐病和炭疽病在果实上的症状差异，涵盖了标准答案中的所有关键要点，包括白腐病的淡褐色软腐、灰白色小点、果穗腐烂和炭疽病的褐色圆斑、轮纹状小黑点、绯红色黏液等特征。回答直接解决了问题，没有废话，结构清晰，对比明确。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "总结星天牛和褐天牛在生活史和危害部位上的主要区别（以杨梅 桃树为例）。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 9.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了星天牛和褐天牛的生活史和危害部位区别。回答涵盖了所有关键要点，包括发生代数、羽化时间、产卵位置和危害方式。回答直接解决了问题，没有废话，结构清晰。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "梨树上的梨二叉蚜主要危害特点是什么？如何进行药剂防治？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 9.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了梨二叉蚜的危害特点和药剂防治方法。回答涵盖了所有关键要点，包括危害特点（叶片卷曲、皱缩脱落）和防治关键期（花序分离期和落花后10天内），以及推荐药剂（苦参碱等）。回答直接解决了问题，没有废话，结构清晰，内容全面。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "杨梅白腐病主要发生在什么时期？其发生与环境有何关系？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 10.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答严格基于参考资料，准确描述了杨梅白腐病发生在采摘中后期（成熟期），并详细解释了与雨水、湿度的关系。回答涵盖了标准答案中的所有关键要点，包括发生时期和环境关系，且直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "葡萄避雨栽培主要针对哪些病害？为什么有效？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 8.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答在忠实度方面表现优秀，严格基于参考资料，准确识别了葡萄避雨栽培主要针对的病害及其作用机制。回答完整性较高，涵盖了主要病害类型，但对褐斑病的提及较少。回答直接解决了问题，没有废话，结构清晰，逻辑性强。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "总结梨黑斑病的发病规律及防治重点。",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 7.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了梨黑斑病的病原、发病规律和防治方法。回答涵盖了越冬与初侵染、发病高峰期、影响因素和症状表现等关键点，防治重点也提到了清除病残体和药剂防治。但标准答案中提到的'梅雨季（6-7月）易流行'和'可用多抗霉素等'在AI回答中虽有提及但不够突出。回答结构清晰，直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "柑橘花蕾蛆的危害特征及防治适期是什么？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 7.2,
+  "Score_Comprehensiveness": 6.2,
+  "Score_Relevance": 8,
+  "Reason": "AI回答基本忠实于参考资料，正确提到了柑橘花蕾蛆的危害特征（灯笼状花蕾、花瓣带绿点）和防治适期（现蕾期、花蕾变白时）。但AI回答中提到的'花序分离期至铃铛球期'和'落花后10天内'这两个防治时期在参考资料中未明确提及，存在一定程度的幻觉。此外，AI回答中提到的防治药剂（75%灭蝇胺可湿性粉剂）在参考资料中有提及，但AI回答中未明确说明这一点。回答基本完整，但缺少一些关键细节，如幼虫在花蕾内取食的具体位置和危害程度。回答直接解决了问题，没有废话，但部分信息与标准答案不完全一致。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "苹果轮纹病（粗皮病）主要危害哪些部位？其症状有何特点？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 9.2,
+  "Score_Comprehensiveness": 8.2,
+  "Score_Relevance": 9,
+  "Reason": "AI回答基本忠实于参考资料，准确描述了苹果轮纹病危害枝干和果实的特点。枝干症状描述与参考资料一致，包括红褐色病斑、边缘龟裂、表皮粗糙等特征。果实症状描述也较为准确，包括同心轮纹状病斑、茶褐色黏液溢出等。但AI回答中'病部因失水而逐渐收缩下陷，产生明显的小黑点，最终导致上部枝条枯死'这一描述更像是枝干症状而非果实症状，存在一定混淆。整体回答完整且直接解决了问题，没有废话。"
+}
+{
+  "System": "light_rag",
+  "Type": "B",
+  "Question": "综合果林病虫害防治手册，减少化学农药使用的主要途径有哪些？",
+  "Method": "LLM_Judge",
+  "Score_Faithfulness": 8.2,
+  "Score_Comprehensiveness": 9.2,
+  "Score_Relevance": 10,
+  "Reason": "AI回答忠实于参考资料，涵盖了标准答案中的所有关键要点：选用抗病虫品种、强化田间管理、冬季清园、推广生物和物理防治、精准施药。回答结构清晰，内容全面，直接解决了问题，没有废话。"
+}
