@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(cd \"D:\\\\graduation_thesis\" && ls -la *.md)"
     ]
   }
 }

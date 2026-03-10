@@ -1,5 +1,5 @@
 """
-Pure LLM 方法实现（不使用 RAG，直接调用大模型）
+纯大模型问答实现。
 """
 import sys
 from pathlib import Path
@@ -7,54 +7,43 @@ from typing import List
 
 from openai import OpenAI
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import Config
 from .base import BaseMethod
 
 
 class PureLLMMethod(BaseMethod):
-    """纯 LLM 方法"""
-
     name = "pure_llm"
 
     def __init__(self, config: Config = None):
         super().__init__(config)
-        self._init_client()
-
-    def _init_client(self):
-        """初始化 OpenAI 客户端"""
         api_key = self.config.api.openai_api_key
         if not api_key:
-            raise RuntimeError("请设置环境变量 OPENAI_API_KEY")
+            raise RuntimeError("请先设置环境变量 OPENAI_API_KEY")
 
         self.client = OpenAI(
             api_key=api_key,
-            base_url=self.config.api.openai_base_url
+            base_url=self.config.api.openai_base_url,
         )
 
-    def _build_prompt(self, question: str, max_chars: int) -> str:
-        """构建提示词"""
+    def build_prompt(self, question: str, max_chars: int) -> str:
         return (
-            f"你是一个简洁的助手。请用中文回答以下问题，要求：回答不超过 {max_chars} 字（字数以中文字符计），"
-            "不要超过限制；只返回答案内容，也不要包含标点前后的空行。\n\n"
-            f"问题：{question}\n\n只返回答案："
+            f"你是一个果园病虫害专家。请用中文回答以下问题，控制在 {max_chars} 字以内。"
+            "只返回答案正文，不要输出额外说明或空行。\n\n"
+            f"问题：{question}\n\n答案："
         )
 
     def get_answer(self, question: str, max_chars: int = 200) -> str:
-        """获取问题的答案"""
-        prompt = self._build_prompt(question, max_chars)
-
         response = self.client.chat.completions.create(
             model=self.config.api.model_name,
             messages=[
-                {"role": "system", "content": "你需要扮演一个果园病虫害的专家"},
-                {"role": "user", "content": prompt},
+                {"role": "system", "content": "你需要扮演一个果园病虫害的专家。"},
+                {"role": "user", "content": self.build_prompt(question, max_chars)},
             ],
             temperature=0.0,
             stream=False,
         )
-        return response.choices[0].message.content
+        return response.choices[0].message.content or ""
 
     def get_contexts(self, question: str) -> List[str]:
-        """Pure LLM 没有检索上下文，返回空列表"""
         return []

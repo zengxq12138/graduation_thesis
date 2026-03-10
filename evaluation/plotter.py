@@ -1,5 +1,5 @@
 """
-评测结果绘图模块
+评测结果绘图。
 """
 import json
 import sys
@@ -10,146 +10,116 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import Config
 
-SCORE_COLS = ['Score_Faithfulness', 'Score_Comprehensiveness', 'Score_Relevance']
+
+SCORE_COLS = ["Score_Faithfulness", "Score_Comprehensiveness", "Score_Relevance"]
 
 
-def setup_plot_style():
-    """设置绘图样式和中文字体"""
+def setup_plot_style() -> None:
     sns.set_theme(style="whitegrid")
-    try:
-        plt.rcParams['font.sans-serif'] = ['SimHei', 'Arial', 'Microsoft YaHei', 'DejaVu Sans']
-        plt.rcParams['axes.unicode_minus'] = False
-    except:
-        pass
+    plt.rcParams["font.sans-serif"] = ["SimHei", "Arial", "Microsoft YaHei", "DejaVu Sans"]
+    plt.rcParams["axes.unicode_minus"] = False
 
 
 def load_results(progress_file: Path) -> List[dict]:
-    """从 jsonl 文件加载评测结果"""
-    results = []
-    if progress_file.exists():
-        with open(progress_file, "r", encoding="utf-8") as f:
-            for line in f:
-                try:
-                    data = json.loads(line.strip())
-                    results.append(data)
-                except json.JSONDecodeError:
-                    continue
+    if not progress_file.exists():
+        return []
+
+    with open(progress_file, "r", encoding="utf-8") as file:
+        content = file.read().strip()
+
+    results: List[dict] = []
+    # 使用 JSONDecoder 来解析连续的 JSON 对象
+    decoder = json.JSONDecoder()
+    index = 0
+    while index < len(content):
+        # 跳过空白字符
+        while index < len(content) and content[index].isspace():
+            index += 1
+        if index >= len(content):
+            break
+        try:
+            data, index = decoder.raw_decode(content, index)
+            results.append(data)
+        except json.JSONDecodeError:
+            # 如果解析失败，尝试下一行
+            break
+
     return results
 
 
-def plot_results(config: Config = None, results: List[dict] = None):
-    """绘制所有评测图表"""
+def print_summary(df: pd.DataFrame) -> None:
+    print("\n" + "=" * 60)
+    print("评测统计摘要")
+    print("=" * 60)
+    print(df.groupby(["System", "Type"])[SCORE_COLS].mean().round(2))
+    print("\n")
+    print(df.groupby("System")[SCORE_COLS].mean().round(2))
+    print("=" * 60)
+
+
+def plot_results(config: Config = None, results: List[dict] = None) -> None:
+    """
+    生成评估结果的图表。
+
+    数据源优先级：
+    1. 参数传入的 results
+    2. final_evaluation_results.csv（修正后的标准数据）
+    """
     if config is None:
         from config import default_config
         config = default_config
 
-    # 加载数据
     if results is None:
-        progress_file = config.paths.output_dir / "evaluation_progress.jsonl"
-        results = load_results(progress_file)
+        # 统一从 CSV 文件读取（这是经过修正的标准数据）
+        csv_path = config.paths.output_dir / "final_evaluation_results.csv"
+        if not csv_path.exists():
+            print("没有找到评测数据文件: final_evaluation_results.csv")
+            print("请先运行评估: python main.py evaluate")
+            return
+
+        results = pd.read_csv(csv_path).to_dict(orient="records")
 
     if not results:
         print("没有找到评测数据，无法绘图")
         return
 
-    print(f"成功加载 {len(results)} 条评测记录")
-
-    # 转换为 DataFrame
     df = pd.DataFrame(results)
+    for column in SCORE_COLS:
+        df[column] = pd.to_numeric(df[column], errors="coerce").fillna(0)
 
-    # 转换分数列为数字类型
-    for col in SCORE_COLS:
-        if col in df.columns:
-            df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
-
-    # 设置绘图样式
     setup_plot_style()
+    config.paths.charts_dir.mkdir(parents=True, exist_ok=True)
 
-    # 确保输出目录存在
-    charts_dir = config.paths.charts_dir
-    charts_dir.mkdir(parents=True, exist_ok=True)
+    chart_specs = [
+        ("Score_Comprehensiveness", "viridis", "chart_comprehensiveness.png", "Comprehensiveness Comparison (1-10 Scale)"),
+        ("Score_Faithfulness", "magma", "chart_faithfulness.png", "Faithfulness Comparison (1-10 Scale)"),
+        ("Score_Relevance", "coolwarm", "chart_relevance.png", "Relevance Comparison (1-10 Scale)"),
+    ]
 
-    # 1. 完整性对比 (Comprehensiveness)
-    plt.figure(figsize=(12, 6))
-    sns.barplot(data=df, x="System", y="Score_Comprehensiveness", hue="Type", palette="viridis")
-    plt.title("Comprehensiveness Comparison (1-10 Scale)", fontsize=14, fontweight='bold')
-    plt.xlabel("System", fontsize=12)
-    plt.ylabel("Score", fontsize=12)
-    plt.ylim(0, 10.5)
-    plt.legend(title="Type")
-    plt.tight_layout()
-    chart_path = charts_dir / "chart_comprehensiveness.png"
-    plt.savefig(chart_path, dpi=300)
-    print(f"✓ 图表已生成: {chart_path}")
-    plt.close()
+    for score_key, palette, filename, title in chart_specs:
+        plt.figure(figsize=(12, 6))
+        sns.barplot(data=df, x="System", y=score_key, hue="Type", palette=palette)
+        plt.title(title, fontsize=14, fontweight="bold")
+        plt.xlabel("System")
+        plt.ylabel("Score")
+        plt.ylim(0, 10.5)
+        plt.tight_layout()
+        chart_path = config.paths.charts_dir / filename
+        plt.savefig(chart_path, dpi=300)
+        plt.close()
+        print(f"图表已生成: {chart_path}")
 
-    # 2. 忠实度对比 (Faithfulness)
-    plt.figure(figsize=(12, 6))
-    sns.barplot(data=df, x="System", y="Score_Faithfulness", hue="Type", palette="magma")
-    plt.title("Faithfulness Comparison (1-10 Scale)", fontsize=14, fontweight='bold')
-    plt.xlabel("System", fontsize=12)
-    plt.ylabel("Score", fontsize=12)
-    plt.ylim(0, 10.5)
-    plt.legend(title="Type")
-    plt.tight_layout()
-    chart_path = charts_dir / "chart_faithfulness.png"
-    plt.savefig(chart_path, dpi=300)
-    print(f"✓ 图表已生成: {chart_path}")
-    plt.close()
-
-    # 3. 相关性对比 (Relevance)
-    plt.figure(figsize=(12, 6))
-    sns.barplot(data=df, x="System", y="Score_Relevance", hue="Type", palette="coolwarm")
-    plt.title("Relevance Comparison (1-10 Scale)", fontsize=14, fontweight='bold')
-    plt.xlabel("System", fontsize=12)
-    plt.ylabel("Score", fontsize=12)
-    plt.ylim(0, 10.5)
-    plt.legend(title="Type")
-    plt.tight_layout()
-    chart_path = charts_dir / "chart_relevance.png"
-    plt.savefig(chart_path, dpi=300)
-    print(f"✓ 图表已生成: {chart_path}")
-    plt.close()
-
-    # 4. 热力图
     plt.figure(figsize=(10, 8))
-    heatmap_data = df.groupby('System')[SCORE_COLS].mean()
-    sns.heatmap(heatmap_data, annot=True, fmt='.2f', cmap='YlGnBu',
-                linewidths=0.5, vmin=0, vmax=10)
-    plt.title("Average Scores Heatmap by System", fontsize=14, fontweight='bold')
+    heatmap_data = df.groupby("System")[SCORE_COLS].mean()
+    sns.heatmap(heatmap_data, annot=True, fmt=".2f", cmap="YlGnBu", linewidths=0.5, vmin=0, vmax=10)
+    plt.title("Average Scores Heatmap by System", fontsize=14, fontweight="bold")
     plt.tight_layout()
-    chart_path = charts_dir / "chart_heatmap.png"
-    plt.savefig(chart_path, dpi=300)
-    print(f"✓ 图表已生成: {chart_path}")
+    heatmap_path = config.paths.charts_dir / "chart_heatmap.png"
+    plt.savefig(heatmap_path, dpi=300)
     plt.close()
+    print(f"图表已生成: {heatmap_path}")
 
-    # 打印统计摘要
     print_summary(df)
-
-
-def print_summary(df: pd.DataFrame):
-    """打印统计摘要"""
-    print("\n" + "=" * 60)
-    print("评测统计摘要")
-    print("=" * 60)
-
-    # 按系统和类型分组统计
-    print("\n【按系统和类型分组的平均分】")
-    print(df.groupby(['System', 'Type'])[SCORE_COLS].mean().round(2))
-
-    # 按系统整体统计
-    print("\n【按系统整体平均分】")
-    print(df.groupby('System')[SCORE_COLS].mean().round(2))
-
-    # 总体统计
-    print("\n【总体统计】")
-    print(df[SCORE_COLS].describe().round(2))
-
-    print("=" * 60 + "\n")
-
-
-if __name__ == "__main__":
-    plot_results()

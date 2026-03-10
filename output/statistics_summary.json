@@ -1,44 +1,4 @@
 {
-  "pure_llm": {
-    "testset_A": {
-      "faithfulness": 6.05,
-      "comprehensiveness": 6.95,
-      "relevance": 8.6,
-      "count": 20
-    },
-    "testset_B": {
-      "faithfulness": 5.73,
-      "comprehensiveness": 6.53,
-      "relevance": 7.8,
-      "count": 30
-    }
-  },
-  "naive_rag": {
-    "testset_A": {
-      "faithfulness": 8.65,
-      "comprehensiveness": 8.4,
-      "relevance": 8.6,
-      "count": 20
-    },
-    "testset_B": {
-      "faithfulness": 7.77,
-      "comprehensiveness": 7.9,
-      "relevance": 8.5,
-      "count": 30
-    }
-  },
-  "light_rag": {
-    "testset_A": {
-      "faithfulness": 9.35,
-      "comprehensiveness": 9.4,
-      "relevance": 9.6,
-      "count": 20
-    },
-    "testset_B": {
-      "faithfulness": 8.53,
-      "comprehensiveness": 8.6,
-      "relevance": 9.4,
-      "count": 30
-    }
-  }
-}
+  "by_system_type": {
+    "Score_Faithfulness": {
+      
