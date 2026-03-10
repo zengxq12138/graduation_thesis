@@ -2,7 +2,21 @@
   "permissions": {
     "allow": [
       "Bash(python:*)",
-      "Bash(cd \"D:\\\\graduation_thesis\" && ls -la *.md)"
+      "Bash(cd \"D:\\\\graduation_thesis\" && ls -la *.md)",
+      "Bash(chmod +x \"D:\\\\graduation_thesis\\\\.claude\\\\hooks\\\\pre-clear-git.sh\")"
+    ]
+  },
+  "hooks": {
+    "SessionEnd": [
+      {
+        "matcher": "clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"D:\\\\graduation_thesis\\\\.claude\\\\hooks\\\\pre-clear-git.sh\""
+          }
+        ]
+      }
     ]
   }
 }
