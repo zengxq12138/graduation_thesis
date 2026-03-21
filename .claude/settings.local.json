@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python:*)",
       "Bash(cd \"D:\\\\graduation_thesis\" && ls -la *.md)",
-      "Bash(chmod +x \"D:\\\\graduation_thesis\\\\.claude\\\\hooks\\\\pre-clear-git.sh\")"
+      "Bash(chmod +x \"D:\\\\graduation_thesis\\\\.claude\\\\hooks\\\\pre-clear-git.sh\")",
+      "Bash(pandoc:*)",
+      "Bash(git add:*)"
     ]
   },
   "hooks": {
