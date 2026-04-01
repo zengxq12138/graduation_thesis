@@ -1,5 +1,16 @@
 # AGENT.md
 
+## Encoding Rules
+
+1. When reading Chinese files under `thesis/`, if mojibake or garbled text appears, do not analyze or rewrite based on that output.
+2. Confirm file encoding first, then reread with the correct encoding. Try `utf-8`, `utf-8-sig`, `gbk`, and `gb18030` when needed.
+3. In PowerShell, prefer explicitly setting console output encoding before reading Chinese text, for example: `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8`.
+4. When needed, use similar command prefixes that force UTF-8 output before `Get-Content` or other text-reading commands, instead of relying on terminal defaults.
+5. For new thesis versions or rewritten Chinese text files, prefer UTF-8 consistently to avoid mixed encodings in the same directory.
+6. Prefer tools and commands that can specify encoding explicitly instead of relying on terminal default encoding.
+7. Do not batch replace, format, or overwrite Chinese source files before encoding is confirmed.
+8. If an original file already has encoding issues, preserve it and write a new version rather than destructively overwriting the source.
+
 ## 论文第二版改写工作约定
 
 本文件用于约束后续对毕业论文第二版的分析、改写、补充与输出，避免论文内容与项目实现、数据来源、用户要求不一致。
@@ -7,9 +18,10 @@
 ## 1. 总体原则
 
 1. 论文第二版以当前工作目录 `D:\graduation_thesis` 中的真实项目材料为基础进行改写。
-2. 论文中的 `V-KG RAG` 与项目目录 `D:\graduation_thesis\LightRAG` 在本任务中视为等价概念。
-3. 若需要描述技术细节，可将 `LightRAG` 的技术原理映射表述为论文中的 `V-KG RAG`，但不得伪造不存在的实验结论或工程实现。
-4. 允许参考 [优秀模板2](D:\graduation_thesis\thesis\参考文档\优秀模板2.md) 的结构风格，对现有论文目录、章节层级和标题进行重构。
+2. 论文定位为“自研 V-KG RAG 在果园病虫害场景中的应用”，不得在论文正文中出现 `LightRAG` 作为方法名称、实现名称或“参考实现/落地实现”的表述。
+3. 项目目录 `D:\graduation_thesis\LightRAG` 仅作为本次写作的内部技术参考材料，用于理解图增强索引、双层检索、增量更新等机制，不作为论文中的直接叙述对象。
+4. 若需要描述技术细节，应统一以论文方案 `V-KG RAG` 的名义进行表述，但不得伪造不存在的实验结论或工程实现。
+5. 允许参考 [优秀模板2](D:\graduation_thesis\thesis\参考文档\优秀模板2.md) 的结构风格，对现有论文目录、章节层级和标题进行重构。
 
 ## 2. 结构改写原则
 
@@ -34,10 +46,10 @@
 
 1. 用户明确说明的事实与约束
 2. 工作区内真实项目代码与文档
-3. `D:\graduation_thesis\LightRAG` 项目内容
+3. `D:\graduation_thesis\LightRAG` 项目内容（仅作内部技术参考，不直接写入论文名称表述）
 4. `D:\graduation_thesis\docs` 中现有图片与图示
 5. `D:\graduation_thesis\output` 中的评测输出
-6. 必要时联网搜索 `LightRAG` 官方/原始技术信息
+6. 必要时联网搜索 `LightRAG` 官方/原始技术信息（仅用于理解 V-KG RAG 可采用的技术机制）
 
 ## 4. 数据使用规则
 
@@ -59,7 +71,7 @@
 
 ### 允许补写
 
-1. 基于 LightRAG/V-KG RAG 原理的技术细节展开
+1. 基于 V-KG RAG 原理的技术细节展开
 2. 结合现有实现与论文风格进行方法论补充
 3. 衔接性段落、学术化表达、章节总结
 4. 对现有实验结果的更规范化学术表述
@@ -72,6 +84,8 @@
 3. 编造不存在的实验结果、性能数字、样本规模、消融实验结论
 4. 编造用户未提供、项目中也无法找到的截图或图表内容
 5. 在论文中写入“分数修正”“人工修分”“后处理改分”等内容
+6. 在论文正文中直接写出 `LightRAG` 是本方案的实现基础、参考实现或源码来源
+7. 在论文正文、图注、表注、命令示例中暴露项目内部方法标识，如 `light_rag`
 
 ## 7. 占位符规则
 
@@ -95,15 +109,7 @@
    - `D:\graduation_thesis\LightRAG`
    - `D:\graduation_thesis\thesis\参考文档\lighRAG.txt`
    - `D:\graduation_thesis\thesis\参考文档\lightrag_key_content.txt`
-2. 若本地资料不足，可联网检索 LightRAG 的原始技术资料。
-3. 使用联网资料时，应优先吸收技术思想，不要大段照搬原文。
+2. 若本地资料不足，可联网检索 LightRAG 的原始技术资料，但仅用于内部理解 V-KG RAG 的机制。
+3. 使用上述资料时，应优先吸收技术思想，不要大段照搬原文，且不得在论文中保留 `LightRAG` 的直接命名。
 
 ## 10. 当前任务状态
-
-当前仅完成规则落档。
-
-下一步任务应为：
-
-1. 基于本文件生成论文第二版优化计划
-2. 按优化计划重写第二版论文
-3. 生成缺失项统计文件
