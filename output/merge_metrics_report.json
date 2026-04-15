@@ -1,0 +1,385 @@
+{
+  "source_files": {
+    "primary_fixed_progress": "D:\\graduation_thesis\\output\\fixed_evaluation_progress.jsonl",
+    "current_evaluation_csv": "D:\\graduation_thesis\\output\\final_evaluation_results.csv",
+    "legacy_evaluation_csv": "D:\\graduation_thesis\\old_script\\rating\\output\\final_evaluation_results.csv",
+    "testset_A": "D:\\graduation_thesis\\data\\testset\\A.json",
+    "testset_B": "D:\\graduation_thesis\\data\\testset\\B.json",
+    "merge_markdown": "D:\\graduation_thesis\\thesis\\merge.md"
+  },
+  "note": "merge.md 中与实验结果相关的统计值与 output/fixed_evaluation_progress.jsonl 保持一致；测试集长度与题量来自 data/testset/A.json 和 B.json。",
+  "testset_stats": {
+    "A": {
+      "count": 20,
+      "avg_question_len": 19.3,
+      "avg_answer_len": 24.6,
+      "min_answer_len": 14,
+      "max_answer_len": 49
+    },
+    "B": {
+      "count": 30,
+      "avg_question_len": 23.23,
+      "avg_answer_len": 90.03,
+      "min_answer_len": 55,
+      "max_answer_len": 141
+    }
+  },
+  "tables": {
+    "table_3_4_A": [
+      {
+        "System": "pure_llm",
+        "SystemLabel": "Pure LLM",
+        "Type": "A",
+        "Faithfulness": 6.05,
+        "Comprehensiveness": 6.95,
+        "Relevance": 8.6,
+        "Composite": 7.2
+      },
+      {
+        "System": "naive_rag",
+        "SystemLabel": "Naive RAG",
+        "Type": "A",
+        "Faithfulness": 8.65,
+        "Comprehensiveness": 8.4,
+        "Relevance": 8.6,
+        "Composite": 8.55
+      },
+      {
+        "System": "light_rag",
+        "SystemLabel": "V-KG RAG",
+        "Type": "A",
+        "Faithfulness": 9.35,
+        "Comprehensiveness": 9.4,
+        "Relevance": 9.6,
+        "Composite": 9.45
+      }
+    ],
+    "table_3_5_B": [
+      {
+        "System": "pure_llm",
+        "SystemLabel": "Pure LLM",
+        "Type": "B",
+        "Faithfulness": 5.73,
+        "Comprehensiveness": 6.53,
+        "Relevance": 7.8,
+        "Composite": 6.69
+      },
+      {
+        "System": "naive_rag",
+        "SystemLabel": "Naive RAG",
+        "Type": "B",
+        "Faithfulness": 7.77,
+        "Comprehensiveness": 7.9,
+        "Relevance": 8.5,
+        "Composite": 8.06
+      },
+      {
+        "System": "light_rag",
+        "SystemLabel": "V-KG RAG",
+        "Type": "B",
+        "Faithfulness": 8.53,
+        "Comprehensiveness": 8.6,
+        "Relevance": 9.4,
+        "Composite": 8.84
+      }
+    ],
+    "table_3_6_overall": [
+      {
+        "System": "pure_llm",
+        "SystemLabel": "Pure LLM",
+        "Faithfulness": 5.86,
+        "Comprehensiveness": 6.7,
+        "Relevance": 8.12,
+        "Composite": 6.89
+      },
+      {
+        "System": "naive_rag",
+        "SystemLabel": "Naive RAG",
+        "Faithfulness": 8.12,
+        "Comprehensiveness": 8.1,
+        "Relevance": 8.54,
+        "Composite": 8.25
+      },
+      {
+        "System": "light_rag",
+        "SystemLabel": "V-KG RAG",
+        "Faithfulness": 8.86,
+        "Comprehensiveness": 8.92,
+        "Relevance": 9.48,
+        "Composite": 9.09
+      }
+    ],
+    "table_3_7_quality_counts": [
+      {
+        "System": "pure_llm",
+        "SystemLabel": "Pure LLM",
+        "total_questions": 50,
+        "all_dims_ge_8": 7,
+        "any_dim_le_5": 22
+      },
+      {
+        "System": "naive_rag",
+        "SystemLabel": "Naive RAG",
+        "total_questions": 50,
+        "all_dims_ge_8": 34,
+        "any_dim_le_5": 6
+      },
+      {
+        "System": "light_rag",
+        "SystemLabel": "V-KG RAG",
+        "total_questions": 50,
+        "all_dims_ge_8": 40,
+        "any_dim_le_5": 1
+      }
+    ],
+    "table_3_8_b_categories": [
+      {
+        "Category": "比较型",
+        "System": "pure_llm",
+        "SystemLabel": "Pure LLM",
+        "Faithfulness": 6.25,
+        "Comprehensiveness": 7.25,
+        "Relevance": 8.25,
+        "Composite": 7.25,
+        "question_count": 4
+      },
+      {
+        "Category": "比较型",
+        "System": "naive_rag",
+        "SystemLabel": "Naive RAG",
+        "Faithfulness": 7.75,
+        "Comprehensiveness": 8.75,
+        "Relevance": 9.0,
+        "Composite": 8.5,
+        "question_count": 4
+      },
+      {
+        "Category": "比较型",
+        "System": "light_rag",
+        "SystemLabel": "V-KG RAG",
+        "Faithfulness": 8.7,
+        "Comprehensiveness": 9.7,
+        "Relevance": 10.0,
+        "Composite": 9.47,
+        "question_count": 4
+      },
+      {
+        "Category": "防治型",
+        "System": "pure_llm",
+        "SystemLabel": "Pure LLM",
+        "Faithfulness": 5.61,
+        "Comprehensiveness": 6.17,
+        "Relevance": 7.56,
+        "Composite": 6.44,
+        "question_count": 18
+      },
+      {
+        "Category": "防治型",
+        "System": "naive_rag",
+        "SystemLabel": "Naive RAG",
+        "Faithfulness": 7.72,
+        "Comprehensiveness": 7.61,
+        "Relevance": 8.39,
+        "Composite": 7.91,
+        "question_count": 18
+      },
+      {
+        "Category": "防治型",
+        "System": "light_rag",
+        "SystemLabel": "V-KG RAG",
+        "Faithfulness": 8.37,
+        "Comprehensiveness": 8.37,
+        "Relevance": 9.28,
+        "Composite": 8.67,
+        "question_count": 18
+      },
+      {
+        "Category": "机理规律型",
+        "System": "pure_llm",
+        "SystemLabel": "Pure LLM",
+        "Faithfulness": 5.58,
+        "Comprehensiveness": 6.75,
+        "Relevance": 7.92,
+        "Composite": 6.75,
+        "question_count": 12
+      },
+      {
+        "Category": "机理规律型",
+        "System": "naive_rag",
+        "SystemLabel": "Naive RAG",
+        "Faithfulness": 8.08,
+        "Comprehensiveness": 8.25,
+        "Relevance": 8.67,
+        "Composite": 8.33,
+        "question_count": 12
+      },
+      {
+        "Category": "机理规律型",
+        "System": "light_rag",
+        "SystemLabel": "V-KG RAG",
+        "Faithfulness": 8.78,
+        "Comprehensiveness": 8.95,
+        "Relevance": 9.58,
+        "Composite": 9.11,
+        "question_count": 12
+      },
+      {
+        "Category": "症状归纳型",
+        "System": "pure_llm",
+        "SystemLabel": "Pure LLM",
+        "Faithfulness": 5.38,
+        "Comprehensiveness": 6.0,
+        "Relevance": 7.5,
+        "Composite": 6.29,
+        "question_count": 8
+      },
+      {
+        "Category": "症状归纳型",
+        "System": "naive_rag",
+        "SystemLabel": "Naive RAG",
+        "Faithfulness": 8.13,
+        "Comprehensiveness": 8.75,
+        "Relevance": 8.88,
+        "Composite": 8.58,
+        "question_count": 8
+      },
+      {
+        "Category": "症状归纳型",
+        "System": "light_rag",
+        "SystemLabel": "V-KG RAG",
+        "Faithfulness": 8.7,
+        "Comprehensiveness": 8.95,
+        "Relevance": 9.5,
+        "Composite": 9.05,
+        "question_count": 8
+      }
+    ]
+  },
+  "derived_metrics": {
+    "relative_improvements_pct": {
+      "A": {
+        "Type": "A",
+        "vkg_vs_pure_pct": 31.25,
+        "vkg_vs_naive_pct": 10.53,
+        "naive_vs_pure_pct": 18.75
+      },
+      "B": {
+        "Type": "B",
+        "vkg_vs_pure_pct": 32.14,
+        "vkg_vs_naive_pct": 9.68,
+        "naive_vs_pure_pct": 20.48
+      },
+      "ALL": {
+        "Type": "ALL",
+        "vkg_vs_pure_pct": 31.93,
+        "vkg_vs_naive_pct": 10.18,
+        "naive_vs_pure_pct": 19.74
+      }
+    },
+    "a_vs_b_vkg_gap": 0.61
+  },
+  "source_comparison": {
+    "same_shape_primary_vs_current": true,
+    "same_shape_primary_vs_legacy": true,
+    "same_columns_primary_vs_current": true,
+    "same_columns_primary_vs_legacy": true,
+    "by_system_type": [
+      {
+        "System": "light_rag",
+        "Type": "A",
+        "primary_composite": 9.45,
+        "current_composite": 9.45,
+        "legacy_composite": 9.45,
+        "primary_faithfulness": 9.35,
+        "current_faithfulness": 9.35,
+        "legacy_faithfulness": 9.35,
+        "primary_comprehensiveness": 9.4,
+        "current_comprehensiveness": 9.4,
+        "legacy_comprehensiveness": 9.4,
+        "primary_relevance": 9.6,
+        "current_relevance": 9.6,
+        "legacy_relevance": 9.6
+      },
+      {
+        "System": "light_rag",
+        "Type": "B",
+        "primary_composite": 8.84,
+        "current_composite": 8.98,
+        "legacy_composite": 8.71,
+        "primary_faithfulness": 8.53,
+        "current_faithfulness": 8.73,
+        "legacy_faithfulness": 8.33,
+        "primary_comprehensiveness": 8.6,
+        "current_comprehensiveness": 8.8,
+        "legacy_comprehensiveness": 8.4,
+        "primary_relevance": 9.4,
+        "current_relevance": 9.4,
+        "legacy_relevance": 9.4
+      },
+      {
+        "System": "naive_rag",
+        "Type": "A",
+        "primary_composite": 8.55,
+        "current_composite": 8.55,
+        "legacy_composite": 8.55,
+        "primary_faithfulness": 8.65,
+        "current_faithfulness": 8.65,
+        "legacy_faithfulness": 8.65,
+        "primary_comprehensiveness": 8.4,
+        "current_comprehensiveness": 8.4,
+        "legacy_comprehensiveness": 8.4,
+        "primary_relevance": 8.6,
+        "current_relevance": 8.6,
+        "legacy_relevance": 8.6
+      },
+      {
+        "System": "naive_rag",
+        "Type": "B",
+        "primary_composite": 8.06,
+        "current_composite": 7.06,
+        "legacy_composite": 9.06,
+        "primary_faithfulness": 7.77,
+        "current_faithfulness": 6.77,
+        "legacy_faithfulness": 8.77,
+        "primary_comprehensiveness": 7.9,
+        "current_comprehensiveness": 6.9,
+        "legacy_comprehensiveness": 8.9,
+        "primary_relevance": 8.5,
+        "current_relevance": 7.5,
+        "legacy_relevance": 9.5
+      },
+      {
+        "System": "pure_llm",
+        "Type": "A",
+        "primary_composite": 7.2,
+        "current_composite": 7.2,
+        "legacy_composite": 7.2,
+        "primary_faithfulness": 6.05,
+        "current_faithfulness": 6.05,
+        "legacy_faithfulness": 6.05,
+        "primary_comprehensiveness": 6.95,
+        "current_comprehensiveness": 6.95,
+        "legacy_comprehensiveness": 6.95,
+        "primary_relevance": 8.6,
+        "current_relevance": 8.6,
+        "legacy_relevance": 8.6
+      },
+      {
+        "System": "pure_llm",
+        "Type": "B",
+        "primary_composite": 6.69,
+        "current_composite": 5.69,
+        "legacy_composite": 7.69,
+        "primary_faithfulness": 5.73,
+        "current_faithfulness": 4.73,
+        "legacy_faithfulness": 6.73,
+        "primary_comprehensiveness": 6.53,
+        "current_comprehensiveness": 5.53,
+        "legacy_comprehensiveness": 7.53,
+        "primary_relevance": 7.8,
+        "current_relevance": 6.8,
+        "legacy_relevance": 8.8
+      }
+    ]
+  }
+}
